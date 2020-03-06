@@ -1,0 +1,27 @@
+{
+  "name": "tripmap",
+  "version": "1.0.0",
+  "description": "Trip Map for Trip Season Map",
+  "author": "epexa",
+  "license": "Proprietary",
+  "scripts": {
+    "test": "eslint src/*.js",
+    "build": "./build.sh"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "clean-css-cli": "^4.2.1",
+    "eslint": "^5.15.3",
+    "eslint-config-google": "^0.12.0",
+    "html-minifier": "^3.5.21",
+    "husky": "^2.3.0",
+    "uglify-js": "^3.5.2"
+  }
+}
