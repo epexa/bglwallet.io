@@ -1,7 +1,7 @@
 {
-  "name": "tripmap",
+  "name": "bglwallet",
   "version": "1.0.0",
-  "description": "Trip Map for Trip Season Map",
+  "description": "Links for Bitgesell Wallet",
   "author": "epexa",
   "license": "Proprietary",
   "scripts": {

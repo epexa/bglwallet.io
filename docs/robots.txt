@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Host: https://tripmap.io
+Host: https://bglwallet.io
