@@ -14,6 +14,7 @@ src/app.js \
 
 uglifyjs \
 src/lib/typed.min.js \
+src/lib/popper.min.js \
 $DIST_FOLDER/app.js \
 -c drop_console=true,toplevel=true -m toplevel=true -o $DIST_FOLDER/app.js &&
 

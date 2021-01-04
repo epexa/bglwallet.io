@@ -25,4 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 	});
 
+	const initPopper = (button, tooltip, placement) => {
+		const $button = document.querySelector(button);
+		const $tooltip = document.querySelector(tooltip);
+		Popper.createPopper($button, $tooltip, {
+			placement: placement,
+		});
+		[ 'mouseenter', 'focus' ].forEach((eventName) => $button.addEventListener(eventName, () => $tooltip.setAttribute('data-show', '')));
+		[ 'mouseleave', 'blur' ].forEach((eventName) => $button.addEventListener(eventName, () => $tooltip.removeAttribute('data-show')));
+	};
+
+	initPopper('#link-apple-store', '#qr-code-apple-store', 'right-start');
+	initPopper('#link-google-play', '#qr-code-google-play', 'left-start');
+
 });
