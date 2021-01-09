@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		[ 'mouseleave', 'blur' ].forEach((eventName) => $button.addEventListener(eventName, () => $tooltip.removeAttribute('data-show')));
 	};
 
-	initPopper('#link-apple-store', '#qr-code-apple-store', 'right-start');
+	// initPopper('#link-apple-store', '#qr-code-apple-store', 'right-start');
 	initPopper('#link-google-play', '#qr-code-google-play', 'left-start');
 
 });

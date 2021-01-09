@@ -34,11 +34,8 @@ a img {
   height: 64px;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 1em;
-  width: 100%;
+footer p {
+  margin: .25em 0;
 }
 
 .my-0 {
@@ -50,9 +47,6 @@ footer {
 }
 .mb-0 {
   margin-bottom: 0em;
-}
-.mb-5 {
-  margin-bottom: 5em;
 }
 
 .tooltip {
